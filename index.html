@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- own css -->
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>responsive_Navbar</title>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="nav-logo">
+            <h1>LOGO</h1>
+        </div>
+
+        <div class="nav-links">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>PRODUCT</li>
+                <li>SERVICES</li>
+            </ul>
+        </div>
+
+        <div class="nav-btn">
+            <img src="contactIcon.png" alt="icon" id="imIcon" onclick="clickIcon()">
+            <button id="login">Login</button>
+            <button id="register">Register</button>
+            <i class="fa-solid fa-bars" style="color: rgb(247, 249, 250);" id="menuIcon" onclick="openMenu()"></i>
+            <i class="fa-solid fa-circle-xmark" style="color: rgb(244, 247, 249);" id="closeIcon" onclick="closeMenu()"></i>
+        </div>
+    </nav>
+   </header>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
